@@ -1,0 +1,13 @@
+version: '3'
+services:
+  baci-container:
+    image: ubuntu:latest
+    container_name: baci-ubuntu
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
