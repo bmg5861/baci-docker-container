@@ -1,9 +1,6 @@
 # Use Ubuntu as base image
 FROM ubuntu:latest
 
-# Set maintainer label (optional)
-LABEL maintainer="bmg5861@psu.edu"
-
 # Update and install necessary dependencies
 RUN apt-get update && \
     apt-get install -y \
