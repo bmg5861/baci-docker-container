@@ -29,9 +29,32 @@ Build and Start the docker container
   docker compose up -d
 ```
 
+Attach to the running container
+
+```bash
+  docker compose exec -it baci-container bash
+```
+
+Shutdown and Remove container
+
+```bash
+  docker compose down
+```
+
+Shutdown but keep container
+
+```bash
+  docker compose stop
+```
+
+Startup container
+
+```bash
+  docker compose start
+```
 
 ## Usage/Examples
-Docker will mount the working directory into a container volume, so make sure all code you want to run are in the working directory.
+Docker will mount the working directory into a container volume, so make sure all code you want to run is in the working directory.
 
 ![dockerBaci1-removebg-preview](https://github.com/user-attachments/assets/2c35afe8-d609-4875-ba88-b18afe807718)
 
