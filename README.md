@@ -1,5 +1,3 @@
-![dockerBaci1-removebg-preview](https://github.com/user-attachments/assets/2c35afe8-d609-4875-ba88-b18afe807718)
-
 # Baci Docker container 
 
 This project was created beacuse I needed to run the baci programs for a OS class I'm taking and I didn't feel like ssh into the school's computer lab to test my homework, also the original site that was hosting the source code had shut down so I thought it would be fun to copy the source and ELFs from my school SUN machines and create a docker container to run them.
@@ -35,6 +33,7 @@ Build and Start the docker container
 ## Usage/Examples
 Docker will mount the working directory into a container volume, so make sure all code you want to run are in the working directory.
 
+![dockerBaci1-removebg-preview](https://github.com/user-attachments/assets/2c35afe8-d609-4875-ba88-b18afe807718)
 
 ## Authors
 
