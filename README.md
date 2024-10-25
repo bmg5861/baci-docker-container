@@ -1,5 +1,4 @@
-![Logo](![dockerBaci1-removebg-preview](https://github.com/user-attachments/assets/2c35afe8-d609-4875-ba88-b18afe807718)
-)
+![dockerBaci1-removebg-preview](https://github.com/user-attachments/assets/2c35afe8-d609-4875-ba88-b18afe807718)
 
 # Baci Docker container 
 
